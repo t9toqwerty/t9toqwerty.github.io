@@ -353,6 +353,7 @@
 					text-align: center;
 					top: 0;
 					width: 2.5em;
+					background-color: RGBA(50,139,177,0.5);
 				}
 
 				#header nav a:hover {
