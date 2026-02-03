@@ -1,0 +1,147 @@
+Rahul K Jha
+Senior Backend Developer
+Location: Hyderabad, India
+Email: hello@rahulkjha.com
+Phone: +91 XXXXX 8014
+LinkedIn: https://www.linkedin.com/in/t9toqwerty/
+GitHub: https://github.com/t9toqwerty
+Stack Overflow: https://stackoverflow.com/users/2668465/rahul-k-jha?tab=profile
+
+Professional Summary
+- Senior backend developer with 10+ years of experience building scalable web applications using TypeScript, Java, and PHP.
+- Interests: Web Security, REST API Design, Distributed Computing.
+- Strong understanding of Data Structures, Object-Oriented Design, RDBMS, NoSQL, and Distributed Systems.
+
+Key Highlights
+- Built and scaled backend platforms across healthcare, logistics, HR tech, analytics, and e-commerce domains.
+- Experienced in designing secure, performant APIs and services with a focus on reliability and maintainability.
+- Hands-on with cloud-native deployments, container orchestration, and production observability.
+- Comfortable leading features end-to-end: requirements, design, implementation, testing, and release.
+
+Skills
+Backend Development:
+- TypeScript, Java, PHP, Node.js, NestJS, Laravel, Symfony, Spring Boot, REST APIs, GraphQL, Microservices, RxJS
+
+Databases:
+- PostgreSQL, MySQL, Redis, DynamoDB, MongoDB, Elasticsearch, OpenSearch, ClickHouse
+
+Cloud & DevOps:
+- AWS (S3, EC2, Lambda, RDS), Docker, Kubernetes, AWS ECS/ECR, CloudWatch, Kibana, Logstash, Grafana, CI/CD
+
+Architecture & Design:
+- System Design, Distributed Systems, Event-Driven Architecture, Domain-Driven Design, RBAC & OAuth, Web Security, Scalability, Message Queues (RabbitMQ, SQS, SNS)
+
+Testing & Quality:
+- Jest, JUnit, PHPUnit, unit/integration testing, API contract validation, code review practices
+
+Observability & Ops:
+- Centralized logging, metrics dashboards, alerting, tracing fundamentals, incident triage
+
+Collaboration:
+- Agile delivery, cross-functional coordination, mentoring, documentation, and stakeholder communication
+
+Work Experience
+Medtronic India — Senior Software Engineer
+March 2024 - Present | Hyderabad, India
+Project 1: Cloud Native Patient Management Platform
+- Architected and developed a scalable microservices-based platform leveraging both synchronous REST APIs and event-driven communication patterns
+- Designed and implemented domain-driven backend services for DICOM image ingestion, case and plan lifecycle management, user identity, and audit logging
+- Led the development of metadata extraction pipelines to process and store structured data from large image files in distributed systems
+- Built secure user and role-based access control (RBAC) modules ensuring compliance with organizational security policies
+- Implemented event-driven workflows using AWS SNS for asynchronous service orchestration and inter-service communication
+- Applied reactive programming principles (RxJS) to enhance data flow control and improve system responsiveness
+- Developed and optimized PostgreSQL database schemas, queries, and indexing strategies for high-throughput data operations
+- Integrated Elasticsearch and Kibana for centralized logging, tracing, and performance monitoring, improving observability and fault diagnosis
+- Collaborated with cross-functional teams to define API contracts, error-handling strategies, and resilient retry mechanisms
+- Ensured high availability, fault tolerance, and scalability through best practices in distributed system design and cloud-native deployment on AWS
+Tech: NestJS, TypeScript, RxJS, Jest, GraphQL, PostgreSQL, Redis, OpenSearch, Logstash, Docker, Kubernetes, DynamoDB, Kibana, AWS (Cognito, RDS, SQS, S3, SES, SNS, Bedrock, ECR, ECS, Cloudwatch)
+
+Project 2: Mobile App Middleware Service
+- Developed a GraphQL-based middleware service to aggregate and serve data from multiple backend systems to mobile application
+- Designed schema and resolver patterns enabling flexible, efficient client queries with minimal over-fetching
+- Implemented data transformation and stitching logic to unify data from diverse REST and database sources
+- Optimized backend performance through asynchronous processing and connection pooling in Spring Boot
+- Deployed on AWS with integrated logging, monitoring, and collaboration with mobile teams for seamless integration
+Tech: Spring Boot 3, Java, JUnit, GraphQL, Redis, Docker, AWS Cognito, OAuth
+
+Borzo India — Senior Backend Developer
+Sep 2023 - Nov 2023 | Hyderabad, India
+Project: Delivery Platform
+- Served as a pivotal individual contributor within the Finance Research and Development Team, actively engaged in the development of various features pertaining to transaction and payment processing
+- Helped team in migrating multiple module's codebase and other documentation in migrating to english translation from Russian
+Tech: PHP 8, Symfony, PHPUnit, MySQL, Redis, Elasticsearch, Logstash, Docker, Kubernetes, RabbitMQ, ClickHouse, Grafana
+
+Darwinbox — SDE III
+Mar 2023 - Aug 2023 | Hyderabad, India
+Project: Main Product
+- Played a pivotal role in the development of a Multi-Language Support framework, widely adopted by all modules, facilitating translation support in the user's preferred language
+- Led the development of a feature that empowered administrators to manage notification channels (Email, Mobile Push Notification, SMS, Teams, WhatsApp, Web Push Notification), allowing users to customize their notification preferences
+- Contributed significantly to resolving performance issues in the caching layer, resulting in enhanced data caching and retrieval, and ultimately improving user experience
+- Worked as a key contributor for the 7-member Payroll team, responsible for spearheading new feature development and bug fixes within the Payroll Module
+Tech: PHP 8, Symfony, NodeJS, MongoDB, MySQL, Redis, Elasticsearch, Docker, Kubernetes, RabbitMQ
+
+ACS Solutions — Principal Software Engineer
+Apr 2018 - Feb 2023 | Hyderabad, India
+Project 1: Cannabis Potency Testing web app for a US based client
+- Managed a team of 7 developers to successfully develop a cutting-edge SAAS application, streamlining the cannabis potency testing process
+- Collaborated with clients to analyze and enhance project requirements, resulting in the creation of an optimized solution encompassing the desired features
+- Provided valuable support to the devops team in establishing and optimizing the necessary infrastructure for hosting and scaling the application, ensuring optimal performance for a substantial user base
+- Implemented an automated API test environment utilizing Postman, significantly reducing application testing time and enabling swift feature deployment to enhance user experience
+Tech: PHP 8, Laravel 9, VueJS, MySQL, Redis, Docker, AWS, RabbitMQ
+
+Project 2: Business Research & Analysis Data Management App for a US based client
+- Managed a team of 10 developers in the construction and expansion of a REST API for a research and analysis data management application
+- Significantly enhanced API performance, achieving a 150% improvement in average response time for both web and mobile clients
+- Implemented auto-scaling mechanisms to effectively handle sudden surges in user requests
+- Introduced optimization techniques such as caching and load balancing at the application and data layers, resulting in reduced server load, cost savings, and enhanced user experience
+- Strengthened security measures by implementing JWT-based authentication and two-factor authentication (2FA)
+- Added Full-Text Search functionality from the ground up using ElasticSearch, improving the accuracy and efficiency of content search results
+- Integrated Single Sign-On feature using Azure Active Directory, streamlining the login process for enterprise users and increasing efficiency
+- Implemented user activity tracking through GA4, enabling comprehensive analysis of user behavior and generating a user-friendly dashboard for identifying areas of improvement in both web and mobile clients
+- Developed and deployed a Jenkins-based continuous deployment pipeline to streamline and automate the deployment process
+Tech: NodeJS, ExpressJS, VueJS, Java, MySQL, Redis, RabbitMQ, Google BigQuery, Elasticsearch, Docker, Kubernetes, AWS
+
+Project 3: E-Commerce Application for a US based medical organisation
+- Enhanced the application by implementing a fallback payment gateway integration for improved functionality
+- Implemented effective scaling strategies to accommodate a monthly traffic of 3 million visitors
+- Successfully migrated the on-premise application hosting to a cloud-based infrastructure
+- Established a Kubernetes cluster and Docker-based hosting environment, enabling automated scaling based on user traffic and system load
+- Drove a significant improvement of 500% in page load time by effectively leveraging Fastly, a robust technology that harnesses Varnish as a reverse cache and HTTP Accelerator. Moreover, successfully implemented various security enhancements to optimize user experience and fortify the protection of sensitive data
+Tech: PHP 7, Laravel 8, JavaScript, MySQL, Redis, RabbitMQ, Fastly, Elasticsearch, Docker, Kubernetes
+
+Meltag Inc — Senior Software Engineer
+Jan 2017 - Mar 2018 | Hyderabad, India
+Project: Campaign & Loyalty Management Application
+- Developed the REST API for a Campaign Management Application for Web, Mobile & SMS based interface
+- Decreased the Infrastructure cost by 20% by implementing various application and infrastructure level improvements
+- Improved API response time by 30% by implementing various code improvements
+Tech: PHP 7, Laravel 5.5, VueJS, MySQL, Redis, AWS SQS
+
+Tattvam Media — Software Engineer
+Jun 2015 - Dec 2016 | Pune, India
+Project: Digital Media Marketing Engagement Analytics Application
+- Led a team of 4 developers to build and scale an in-house application from scratch to manage and track digital media marketing conversion rate by pulling in data from various sources like Google Adwords & Facebook Marketing & created a dashboard for actionable insights
+- Understood the requirements of the marketing team and worked on developing an optimized solution for new features
+- Setup & manage cloud based hosting environment
+Tech: PHP 7, VueJS, MySQL, Redis, AWS
+
+Open Source Contributions
+- Sentry Integration for Magento (Feature)
+  https://github.com/justbetter/magento2-sentry/pull/59
+- Native Azure Mailer Bridge for Symfony (Bug Fix)
+  https://github.com/symfony/symfony/pull/53388
+
+Hackathon
+2019 — Dobby Chat Bot
+- Teams bot answering questions about organization structure, people & processes for new employees
+- Tech: Python, Google Dialogflow, Microsoft Teams
+
+Certification
+Programming with Google Go (Coursera)
+- Taught by Ian Harris (University of California Irvine)
+- Certificate: https://coursera.org/verify/specialization/EKYKE8T3QKFL
+
+Education
+BTech in Computer Science & Engineering
+RTU Kota
+2011 - 2015
