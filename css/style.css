@@ -386,6 +386,10 @@
 			margin: 1.8em 0 1.6em;
 		}
 
+		body.theme-light .section-divider {
+			background: linear-gradient(90deg, rgba(46, 86, 120, 0), rgba(46, 86, 120, 0.35), rgba(46, 86, 120, 0));
+		}
+
 		.core-stack {
 			margin-top: 0;
 			display: grid;
