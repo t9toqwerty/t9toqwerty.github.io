@@ -27,7 +27,6 @@
         <button class="to-top" type="button" aria-label="Back to top">
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </button>
-        </button>
         <div id="main">
 
             <!-- Header -->
@@ -36,13 +35,11 @@
                 <p>
                     <a href="mailto:hello@rahulkjha.com">hello@rahulkjha.com</a> | Hyderabad, India
                 </p>
-                <p>
-                    <h4>
-                        Senior Backend Developer
-                        <br> <strong>Medtronic India</strong> <br>
-                        10+ years of experience
-                    </h4>
-                </p>
+                <h4>
+                    Senior Backend Developer
+                    <br> <strong>@ Medtronic India</strong> <br>
+                    10+ years of experience
+                </h4>
                 <p class="summary">
                     Senior backend developer focused on scalable web applications and API design.
                 </p>
@@ -101,10 +98,16 @@
                 </div>
                 <div class="section-divider"></div>
                 <div class="open-source">
-                    <h5>Open Source</h5>
+                    <h5>Open Source Contributions</h5>
                     <ul>
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/justbetter/magento2-sentry/pull/59">Sentry Integration for Magento (Feature)</a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/symfony/symfony/pull/53388">Native Azure Mailer Bridge for Symfony (Bug Fix)</a></li>
+                        <li>
+                            <i class="devicon-magento-original" aria-hidden="true"></i>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/justbetter/magento2-sentry/pull/59">Sentry Integration for Magento (Feature)</a>
+                        </li>
+                        <li>
+                            <i class="devicon-symfony-original" aria-hidden="true"></i>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/symfony/symfony/pull/53388">Native Azure Mailer Bridge for Symfony (Bug Fix)</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="section-divider"></div>
@@ -150,7 +153,9 @@
             var storageKey = 'theme-preference';
             var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
             var stored = localStorage.getItem(storageKey);
-            var theme = stored || (prefersLight ? 'light' : 'dark');
+            var hour = new Date().getHours();
+            var timeBasedTheme = (hour >= 7 && hour < 19) ? 'light' : 'dark';
+            var theme = stored || timeBasedTheme || (prefersLight ? 'light' : 'dark');
             var toggle = document.querySelector('.theme-toggle');
             var toggleIcon = document.querySelector('.theme-toggle-icon');
             var yearEl = document.querySelector('.js-year');
@@ -179,6 +184,17 @@
                     localStorage.setItem(storageKey, theme);
                     applyTheme(theme);
                 });
+            }
+
+            if (!stored) {
+                setInterval(function () {
+                    var currentHour = new Date().getHours();
+                    var nextTheme = (currentHour >= 7 && currentHour < 19) ? 'light' : 'dark';
+                    if (nextTheme !== theme) {
+                        theme = nextTheme;
+                        applyTheme(theme);
+                    }
+                }, 5 * 60 * 1000);
             }
 
             function updateToTopVisibility() {
