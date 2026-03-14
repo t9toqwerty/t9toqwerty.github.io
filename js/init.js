@@ -21,7 +21,7 @@
 		
 		// Remove "loading" class once the page has fully loaded.
 			window.onload = function() {
-				document.body.className = '';
+				document.body.classList.remove('loading');
 			}
 
 		// Fix scroll position on orientation change.

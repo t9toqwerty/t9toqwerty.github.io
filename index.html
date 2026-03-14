@@ -153,7 +153,13 @@
             var storageKey = 'theme-preference';
             var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
             var stored = localStorage.getItem(storageKey);
-            var hour = new Date().getHours();
+            var getIstHour = function() {
+                var d = new Date();
+                var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+                var nd = new Date(utc + (3600000 * 5.5));
+                return nd.getHours();
+            };
+            var hour = getIstHour();
             var timeBasedTheme = (hour >= 7 && hour < 19) ? 'light' : 'dark';
             var theme = stored || timeBasedTheme || (prefersLight ? 'light' : 'dark');
             var toggle = document.querySelector('.theme-toggle');
@@ -188,7 +194,7 @@
 
             if (!stored) {
                 setInterval(function () {
-                    var currentHour = new Date().getHours();
+                    var currentHour = getIstHour();
                     var nextTheme = (currentHour >= 7 && currentHour < 19) ? 'light' : 'dark';
                     if (nextTheme !== theme) {
                         theme = nextTheme;
